@@ -12,6 +12,7 @@
 		646342711965F45000FA0DB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6463426F1965F45000FA0DB2 /* Main.storyboard */; };
 		646342731965F45000FA0DB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646342721965F45000FA0DB2 /* Images.xcassets */; };
 		6463427F1965F45000FA0DB2 /* AlarmClockTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6463427E1965F45000FA0DB2 /* AlarmClockTestTests.swift */; };
+		64692697196AF0B300C87830 /* alarm.wav in Resources */ = {isa = PBXBuildFile; fileRef = 64692696196AF0B300C87830 /* alarm.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +29,13 @@
 		646342661965F45000FA0DB2 /* AlarmClockTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmClockTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6463426A1965F45000FA0DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6463426B1965F45000FA0DB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6463426D1965F45000FA0DB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6463426D1965F45000FA0DB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; tabWidth = 3; };
 		646342701965F45000FA0DB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		646342721965F45000FA0DB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		646342781965F45000FA0DB2 /* AlarmClockTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlarmClockTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6463427D1965F45000FA0DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6463427E1965F45000FA0DB2 /* AlarmClockTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmClockTestTests.swift; sourceTree = "<group>"; };
+		64692696196AF0B300C87830 /* alarm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = alarm.wav; path = ../../../../../Downloads/alarm.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,7 @@
 			children = (
 				646342681965F45000FA0DB2 /* AlarmClockTest */,
 				6463427B1965F45000FA0DB2 /* AlarmClockTestTests */,
-				646342671965F45000FA0DB2 /* Products */,
+				64692692196AF02900C87830 /* New Group */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,6 +89,7 @@
 		646342691965F45000FA0DB2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				64692694196AF07A00C87830 /* Assets */,
 				6463426A1965F45000FA0DB2 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -107,6 +110,30 @@
 				6463427D1965F45000FA0DB2 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		64692692196AF02900C87830 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				646342671965F45000FA0DB2 /* Products */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		64692694196AF07A00C87830 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				64692695196AF08000C87830 /* Sounds */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		64692695196AF08000C87830 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				64692696196AF0B300C87830 /* alarm.wav */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				646342711965F45000FA0DB2 /* Main.storyboard in Resources */,
+				64692697196AF0B300C87830 /* alarm.wav in Resources */,
 				646342731965F45000FA0DB2 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +425,7 @@
 				646342841965F45000FA0DB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		646342851965F45000FA0DB2 /* Build configuration list for PBXNativeTarget "AlarmClockTestTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +434,7 @@
 				646342871965F45000FA0DB2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
